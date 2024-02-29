@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".InfoActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/infor"
+
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFORMATION"
+        android:textSize="50sp"
+        android:padding="8sp"
+        android:gravity="center"
+        android:textColor="#393A39"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:gravity="end" />
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="textUsername"
+            android:textSize="30sp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            />
+
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:gravity="end" />
+        <TextView
+            android:id="@+id/tvPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="textPassword"
+            android:textSize="30sp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_arrow_back_24"
+        android:text="Back"
+        android:textSize="30sp"
+        android:backgroundTint="#0C784A"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
